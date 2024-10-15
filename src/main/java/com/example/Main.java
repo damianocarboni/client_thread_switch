@@ -24,7 +24,7 @@ public class Main {
                 break;
             }
             out.writeBytes(messaggio + "\n");
-            System.out.println("scegliere l'operazione da eseguire: \n");
+            System.out.println("scegliere l'operazione da eseguire: M = maiuscolo, m = minuscolo, R = al contrario, C = lunghezza \n");
             messaggio = inTastiera.readLine();
             out.writeBytes(messaggio + "\n");
             String stringaElaborata = in.readLine();
